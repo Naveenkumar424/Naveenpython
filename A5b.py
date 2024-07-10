@@ -10,7 +10,10 @@ def isp(n):
 #main
 n = int(input("Enter a number:"))
 if(isp(n)):
-    print(f"{n} is prime.")
+    print(f"{n} is prime and prime numbers upto {n} are:")
+    for i in range(1,n):
+        if(isp(i)):
+            print(i,end = '\t')
 else:
     print(f"{n} is not prime.")
 #end of code
