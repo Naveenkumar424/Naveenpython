@@ -15,8 +15,8 @@ def gp(n):
 n = int(input("Enter a number:"))
 if(isp(n)):
     print(f"{n} is prime.")
-else:
-    print(f"{n} is not prime.")
     print(f"Prime numbers till {n} are:")
     gp(n)
+else:
+    print(f"{n} is not prime.")
 #end of code
