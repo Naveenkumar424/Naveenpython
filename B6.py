@@ -1,10 +1,9 @@
-#dictionary use
-a = dict()
-n = int(input("how many elements?"))
-for i in range(n):
-    key = input("Enter Key:")
-    value = input("Enter value:")
-    a.update({key:value})
-for key,value in a.items():
-    print(f"{key} = {value}")
+#line and bar chart
+import matplotlib.pyplot as plt
+X = [1,4,3,8]
+Y = [3,5,7,8]
+plt.plot(X,Y)
+plt.show()
+plt.bar(X,Y)
+plt.show()
 #end of code
