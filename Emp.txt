@@ -1,1 +1,1 @@
-['Naveen', 'cs', 'dev', '45000']
+['Naveen', 'cs', 'senior', '450000']
